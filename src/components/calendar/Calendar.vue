@@ -126,6 +126,7 @@
   </div>
 </template>
 
+
 <script>
   import {
     CalendarMixin,
@@ -145,7 +146,7 @@
     QTooltip,
     QTabs,
     QTab,
-    QTabPane,
+    QTabPanel,
     QScrollArea
   } from 'quasar'
   import QuantityBubble from './QuantityBubble'
@@ -184,7 +185,7 @@
       QTooltip,
       QTabs,
       QTab,
-      QTabPane,
+      QTabPanel,
       QScrollArea
     },
     data () {

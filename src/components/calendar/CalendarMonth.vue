@@ -127,7 +127,7 @@
     QTooltip,
     QTabs,
     QTab,
-    QTabPane,
+    QTabPanel,
     QScrollArea
   } from 'quasar'
   import QuantityBubble from './QuantityBubble'
@@ -148,7 +148,7 @@
       QTooltip,
       QTabs,
       QTab,
-      QTabPane,
+      QTabPanel,
       QScrollArea
     },
     mixins: [CalendarParentComponentMixin, CalendarMixin, CalendarEventMixin],
